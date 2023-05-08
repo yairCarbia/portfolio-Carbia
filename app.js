@@ -38,7 +38,7 @@ function executeCommand(command) {
 
 function displayAbout() {
     let output = document.createElement('p');
-    output.innerHTML = 'Hola , mi nombre es Yair Carbia y soy Fullstack Developer.<br>Auxiliar informatico en Armada Argentina.<br>Estudiante de la Lic. en Informàtica.';
+    output.innerHTML = 'Hola , mi nombre es Yair Carbia y soy Fullstack Developer.<br>Auxiliar informático en Armada Argentina.<br>Estudiante de la Lic. en Informática .';
     document.querySelector('.command-output').appendChild(output);
 }
 function displaySkills() {
@@ -60,7 +60,7 @@ function displayProjects() {
 }
 function displayExp() {
     let output = document.createElement('p');
-    output.innerHTML = 'ARMADA ARGENTINA.<br>AUXILIAR INFORMATICO.<br> TAREAS:<br>Soporte tecnico.<br>Consultas SQL.<br>Desarrollo Web.';
+    output.innerHTML = 'ARMADA ARGENTINA.<br>AUXILIAR INFORMATICO.<br> TAREAS:<br>Soport técnico.<br>Consultas SQL.<br>Desarrollo Web.';
     document.querySelector('.command-output').appendChild(output);
 }
 function displayContact() {
